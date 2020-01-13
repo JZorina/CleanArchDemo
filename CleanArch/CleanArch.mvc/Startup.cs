@@ -85,7 +85,7 @@ namespace CleanArch.mvc
         
         public static void RegisterServices(IServiceCollection services)
         {
-            DependencyContainer.RegisterService(services);
+            DependencyContainer.RegisterServices(services);
         }
     }
 }
